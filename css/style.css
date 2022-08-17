@@ -6,4 +6,13 @@
 
 h1{
     font-family: 'Times New Roman', Times, serif;
+    color: rgb(46, 72, 189);
+    font-size: 45px;
+}
+
+h1:hover{
+    color: cadetblue;
+    text-decoration: underline;
+    transition: 0.3s;
+    transform: skew(45deg);
 }
